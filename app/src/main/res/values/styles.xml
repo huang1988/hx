@@ -1,17 +1,22 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
+    <style name="AppTheme" parent="MyThemeBlue"></style>
+
+    <!-- 蓝色为主色调 -->
+    <style name="MyThemeBlue" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!--Toolbar颜色 也是多任务切换的标题颜色-->
+        <item name="colorPrimary">@color/pink_base</item>
+        <!--状态栏颜色-->
+        <item name="colorPrimaryDark">@color/pink_base</item>
+        <!--下划线 提示等一些组件的 着色-->
+        <item name="colorAccent">@color/pink_base_dark</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
         <item name="windowNoTitle">true</item>
+        <!--android底色-->
+        <!--<item name="android:windowBackground">@color/window_background</item>-->
     </style>
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

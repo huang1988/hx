@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">hx</string>
     <string name="action_settings">Settings</string>
+    <string name="toolbar_title">hx</string>
+    <string name="click_more_exit">再按一次退出</string>
+    <string name="str_dialog_title">提示</string>
+    <string name="str_dialog_sure">确认</string>
+    <string name="str_dialog_cancel">取消</string>
+    <string name="is_logout">是否退出登录？</string>
 </resources>
